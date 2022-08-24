@@ -2,7 +2,6 @@
 An Open Source Theoretical Projectile Calculator<br/>
 This calculator is  accurate to about 2-3 feet<br/>
 THIS IS THE BETA VERSION. THERE MAY BE BUGS<br/>
-Check the Releases or you will get a buggy version <br/>
 
 <h5>Helpful Tips</h5><br />
 1.Average Air Density at Sea Level = 1.225 kg/m<br/>
