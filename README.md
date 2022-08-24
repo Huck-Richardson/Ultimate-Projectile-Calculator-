@@ -18,5 +18,5 @@ Not So Helpful tips<br />
 1.If you want to see how far you can throw something on another planet see below.<br />
 Mars: Acceleration due to Gravity = 3.7 mps | Atmospheric density = 0.02 kg/m<br />
 Venus: Acceleration due to Gravity = 8.87 mps | Atmospheric density = 67 kg/m<br />
-Jupiter (troposphere): Acceleration due to Gravity = 24.5 mps | Atmospheric density = 101971.6 kg/m
+Jupiter (troposphere): Acceleration due to Gravity = 24.5 mps | Atmospheric density = 101971.6 kg/m<br />
 Dagobah: Acceleration due to Gravity = 8.83 mps | Atmospheric density = 1.225 kg/m<br />
