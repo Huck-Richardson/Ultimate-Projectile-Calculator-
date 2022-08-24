@@ -25,11 +25,11 @@ units = 'mps'
 #intro
 print('++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
 print('+                                                      +')
-print('+         Ultimate Projectile Calculator               +')
-print('+            By Huck Richardson v0.9                   +')
-print('+    Open Source Theoretical Projectile Calculator     +')
+print('+            Ultimate Projectile Calculator            +')
+print('+               By Huck Richardson v0.9                +')
+print('+     Open Source Theoretical Projectile Calculator    +')
 print('+                                                      +')
-print('+       A:Scientist  B:Normal  C:Orc  D:Settings       +')
+print('+             A:Scientist  B:Normal  C:Orc             +')
 print('+                                                      +')
 print('++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
 
@@ -43,6 +43,7 @@ while status == 'on':
 		print('+       Scientist       +')
 		print('+++++++++++++++++++++++++')
 		print('')
+		height = float(input('Please enter your height (m)'))
 		weight = float(input('Please enter your weight(kg)'))
 		fudge_factor = weight/1000
 		mass = float(input('Please enter the mass of the projectile(kg)'))
@@ -56,9 +57,6 @@ while status == 'on':
 		pro_area = float(input('Please enter the cross-sectional-area of the projectile (m)'))
 		cd = float((2*mass*g)/(air_density*(v**2)*pro_area))
 		vt = float((((2*mass*g)/(pro_area*air_density*cd)))**(1/2))
-		print(cd)
-		print(v)
-		print(vt)
 		rnge = float(v*vt*math.cos(45)/g)
 		print('')
 		print('You can throw the projectile '+ str(rnge) + ' meters with a top speed of ' + str(v) + ' mps')
@@ -97,7 +95,6 @@ while status == 'on':
 		cd = float((2*mass*g)/(air_density*(v**2)*pro_area))	
 		vt = float((((2*mass*g)/(pro_area*air_density*cd)))**(1/2))
 		rnge = float(v*vt*math.cos(45)/g)
-		throw()
 		print('')
 		print('You can throw the projectile '+ str(round(rnge,1)) + ' meters with a top speed of ' + str(round(v,1)) + ' mps')
 	
@@ -157,24 +154,24 @@ while status == 'on':
 		print('You can throw the projectile '+ str(round(rnge,0)) + ' meters with a top speed of ' + str(round(v,0)) + ' mps')
 		
 		
-	elif u_input == 'd':
-		print('++++++++++++++++++++++++++++++++++++++++++++++')
-		print('+  A: Change Units ("mps" to "mph")          +')
-		print('+  Other: Check out README in the App files  +')
-		print('+  Read the Starting Screen for options      +')
-		print('++++++++++++++++++++++++++++++++++++++++++++++')
-		u_input = input 
-	
-		if u_input == 'a':
-			u_input = input()
-			if u_input == 'mps':
-				units = 'mps'
-					
-			elif u_input == 'mph':
-				units = 'mph'
-	
-		else:
-			print('')
+#	elif u_input == 'd':
+#		print('++++++++++++++++++++++++++++++++++++++++++++++')
+#		print('+  A: Change Units ("mps" to "mph")          +')
+#		print('+  Other: Check out README in the App files  +')
+#		print('+  Read the Starting Screen for options      +')
+#		print('++++++++++++++++++++++++++++++++++++++++++++++')
+#		u_input = input 
+#	
+#		if u_input == 'a':
+#			u_input = input()
+#			if u_input == 'mps':
+#				units = 'mps'
+#					
+#			elif u_input == 'mph':
+#				units = 'mph'
+#	
+#		else:
+#			print('')
 			
 	elif u_input == 'quit':
 		quit()
