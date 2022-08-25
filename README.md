@@ -14,7 +14,7 @@ See README in the project files for instructions.</br>
 <h3>Upcoming Releases</h3>
 <strong>v1.0!</strong> Next update is the offical version 1 release!</br>
 Will include more options for Orc mode, equation vertification, final</br>
-beta testing, some polishing up, and some graphics improvments!.</br>
+beta testing, some polishing up, and some graphics improvments!</br>
 
 <h3>Installation</h3>
 Check out the releases and get the version you want (Be sure to</br>
