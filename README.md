@@ -8,8 +8,7 @@ at a 45 degree angle based on your height, weigh, and athletic</br>
 abilty.There are several complexity levels for anyone who wants</br>
 to estimate things. It has been tested in the real world but is</br>
 off by about 2-3 feet. You can also see how far you can throw</br>
-something on everything from Earth to Dagobah! See the lastest</br>
-release to download!.
+something on other planets See the lastest release to download!</br>
 
 <h3>Upcoming Releases</h3>
 <strong>v1.0!</strong> Next update is the offical version 1 release!</br>
