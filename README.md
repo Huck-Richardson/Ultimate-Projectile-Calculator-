@@ -10,6 +10,10 @@ to estimate things. It has been tested in the real world but is</br>
 off by about 2-3 feet. You can also see how far you can throw</br>
 something on other planets. A calculator for all purposes!</br>
 See README in the project files for instructions.</br>
+</br>
+One problem with this calculator. It says that you throw a</br>
+extremely light ball very far. If you have ever tried to throw</br>
+a ping-pong ball, you know it doesn't go very far.</br>
 
 <h3>Installation</h3>
 Check out the releases and get the version you want (Be sure to</br>
