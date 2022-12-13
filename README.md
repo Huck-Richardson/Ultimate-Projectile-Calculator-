@@ -17,5 +17,7 @@ a ping-pong ball, you know it doesn't go very far.</br>
 
 <h3>Installation</h3>
 Check out the releases and get the version you want (Be sure to</br>
-check the release notes becuase it might be unuseable).
+check the release notes becuase it might be unuseable).This should</br>
+only be run in the idle or a linux terminal, otherwise the clear</br>
+funtion won't work.</br>
 <h5>You will need a way to run Python Scripts</h5>
